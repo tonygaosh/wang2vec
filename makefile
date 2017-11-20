@@ -16,6 +16,8 @@ word2phrase : word2phrase.c
 	$(CC) word2phrase.c -o word2phrase $(CFLAGS)
 distance : distance.c
 	$(CC) distance.c -o distance $(CFLAGS)
+distance2 : distance2.c
+	$(CC) distance2.c -o distance2 $(CFLAGS)
 distance_txt : distance_txt.c
 	$(CC) distance_txt.c -o distance_txt $(CFLAGS)
 distance_fast : distance_fast.c
